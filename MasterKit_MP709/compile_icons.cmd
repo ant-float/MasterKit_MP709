@@ -1,0 +1,1 @@
+"C:\Program Files\Borland\Delphi7\Bin\brc32.exe" -r -foicons.res icons.rc
