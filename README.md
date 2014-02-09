@@ -1,8 +1,8 @@
 ##Управление нагрузками через платы МастерКит MP709, MP751
 
 Для работы нужна одна из плат 
-http://www.masterkit.ru/main/set.php?code_id=1200899
-http://www.masterkit.ru/main/set.php?code_id=579540
+- http://www.masterkit.ru/main/set.php?code_id=1200899
+- http://www.masterkit.ru/main/set.php?code_id=579540
 
 Команды управления взяты из примера на С++ http://www.olimp-z.ru/products/MP709/MP709_Example.rar
 
