@@ -1,6 +1,6 @@
 {
 2014-02-09
-Анатолий Дорошенко
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 ant.doroshenko@gmail.com
 }
 
@@ -90,14 +90,14 @@ begin
       str := reg.ReadString(c_reg_autostart_key);
       OldSetAutostart := (str = ExeName);
 
-      //Все в норме
+      //пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
       if FLoadOnStartup and OldSetAutostart then
       begin
         reg.CloseKey;
         Exit;
       end;
 
-      //Убрать из автозагрузки
+      //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
       if not FLoadOnStartup then
       begin
         reg.DeleteValue(c_reg_autostart_key);
@@ -113,7 +113,8 @@ begin
       Reg.Free;
     end;
   except
-  end;end;
+  end;
+end;
 
 procedure TfmMain.cbAutostartClick(Sender: TObject);
 begin
