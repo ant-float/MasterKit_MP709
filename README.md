@@ -4,6 +4,8 @@
 - http://www.masterkit.ru/main/set.php?code_id=1200899
 - http://www.masterkit.ru/main/set.php?code_id=579540
 
+Устройство подключается по USB и опознается как HID, на борту имеется реле для работы с внешними нагрузками. Можно использовать для включения освещения, принтера и т.д.
+
 Команды управления взяты из примера на С++ http://www.olimp-z.ru/products/MP709/MP709_Example.rar
 
 Использованы Delphi 7 и библиотека JEDI http://sourceforge.net/projects/jvcl/
